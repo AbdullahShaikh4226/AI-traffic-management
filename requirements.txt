@@ -1,0 +1,16 @@
+# Smart Traffic Management System — Requirements
+# Install with: pip install -r requirements.txt
+
+# Core detection + tracking
+ultralytics>=8.2.0       # YOLOv8 + ByteTrack
+opencv-python>=4.9.0     # Video capture, drawing, display
+
+# Numerical
+numpy>=1.26.0
+
+# PyTorch — ultralytics installs this automatically,
+# but pin it here for reproducibility.
+# If you have a GPU, replace with the CUDA version:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.2.0
+torchvision>=0.17.0
