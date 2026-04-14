@@ -23,6 +23,11 @@ traffic_system/
 
 ---
 
+## Requirements
+### 1 - Check Requirement file thoroughly
+### 2 - create virtual environment
+### 3 - Run "pip install -r requirements.txt"
+
 ## Setup (Step by Step)
 
 ### 1 — Install dependencies
